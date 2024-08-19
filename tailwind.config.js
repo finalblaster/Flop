@@ -10,7 +10,7 @@ export default {
         sans: ['Roboto', 'sans-serif'],
       },
       gridTemplateColumns: {
-        '70/30': '70%:30%',
+        '70/30': '70% 30%',
       },
     },
   },

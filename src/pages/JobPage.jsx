@@ -55,13 +55,13 @@ const JobPage = () => {
           >
             <div className="text-gray-500 mb-4">Full-Time</div>
             <h1 className="text-3xl font-bold mb-4">
-                Senior React Dev
+                {job.title}
             </h1>
             <div
               className="text-gray-500 mb-4 flex align-middle justify-center md:justify-start"
             >
-         <FaMapMarker />
-              <p className="text-orange-700">Boston, MA</p>
+         <FaMapMarker className='text-orange-700 mg-2'/>
+              <p className="text-orange-700">{job.location}</p>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ const JobPage = () => {
             </h3>
 
             <p className="mb-4">
-             We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.
+             {job.description}
             </p>
 
             <h3 className="text-indigo-800 text-lg font-bold mb-2">Salary</h3>
@@ -82,15 +82,15 @@ const JobPage = () => {
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-bold mb-6">Company Info</h3>
 
-            <h2 className="text-2xl">NewTek Solutions</h2>
+            <h2 className="text-2xl">{job.company.name}</h2>
 
             <p className="my-2">
-              NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.
+            {job.company.description}
             </p>
 
             <hr className="my-4" />
 
-            <h3 className="text-xl">Contact Email:</h3>
+            <h3 className="text-xl">{job.company.contactEmail}</h3>
 
             <p className="my-2 bg-indigo-100 p-2 font-bold">
               contact@newteksolutions.com
@@ -98,7 +98,7 @@ const JobPage = () => {
 
             <h3 className="text-xl">Contact Phone:</h3>
 
-            <p className="my-2 bg-indigo-100 p-2 font-bold">555-555-5555</p>
+            <p className="my-2 bg-indigo-100 p-2 font-bold">{job.company.contactPhone}</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md mt-6">

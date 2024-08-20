@@ -46,8 +46,8 @@
       "id": "4",
       "title": "React Front-End Developer",
       "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
+      "description": "Join our team as a Part-Time Front-End Developer in beautiful Phoenix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "location": "Phoenix, AZ",
       "salary": "$60K - $70K",
       "company": {
         "name": "Alpha Elite",
@@ -81,6 +81,118 @@
         "name": "Port Solutions INC",
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Junior React Developer",
+      "type": "Internship",
+      "description": "Kickstart your career as a Junior React Developer with our internship program in San Francisco, CA. Ideal for recent graduates with a basic understanding of React and a passion for learning new technologies.",
+      "location": "San Francisco, CA",
+      "salary": "Unpaid Internship",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a forward-thinking tech company focused on emerging technologies and startups. We provide a nurturing environment for interns to grow and develop their skills.",
+        "contactEmail": "internships@techinnovators.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "8",
+      "title": "UI/UX Designer",
+      "type": "Full-Time",
+      "description": "Seeking a creative UI/UX Designer to join our team in Seattle, WA. The role involves designing intuitive user interfaces and crafting engaging user experiences for our web applications.",
+      "location": "Seattle, WA",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Creative Minds",
+        "description": "Creative Minds is a design-focused agency known for its innovative approach to user experience and interface design. We strive to create designs that not only look great but also enhance user interactions.",
+        "contactEmail": "contact@creativeminds.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Back-End Developer (Node.js)",
+      "type": "Full-Time",
+      "description": "Join our backend development team in Denver, CO, to build scalable and efficient server-side applications using Node.js. The ideal candidate will have experience with REST APIs and cloud services.",
+      "location": "Denver, CO",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "SkyTech Solutions",
+        "description": "SkyTech Solutions is a leading provider of backend solutions and cloud services. We are dedicated to creating robust and scalable systems that support our clients' growing needs.",
+        "contactEmail": "jobs@skytechsolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Product Manager",
+      "type": "Full-Time",
+      "description": "Looking for an experienced Product Manager to oversee product development from concept to launch. Based in Austin, TX, you will work closely with cross-functional teams to drive product strategy and execution.",
+      "location": "Austin, TX",
+      "salary": "$100K - $120K",
+      "company": {
+        "name": "Visionary Products",
+        "description": "Visionary Products is a leading product development company that focuses on delivering innovative solutions and bringing new ideas to market. We value creativity, collaboration, and strategic thinking.",
+        "contactEmail": "careers@visionaryproducts.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Database Administrator",
+      "type": "Full-Time",
+      "description": "We are hiring a Database Administrator for our New York, NY office. Responsibilities include managing and optimizing database systems to ensure data integrity and performance. Experience with SQL and NoSQL databases is required.",
+      "location": "New York, NY",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "DataCore Systems",
+        "description": "DataCore Systems is a leader in data management solutions, offering comprehensive database services to clients worldwide. We prioritize data security, reliability, and cutting-edge technology.",
+        "contactEmail": "hr@datacoresystems.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "12",
+      "title": "DevOps Engineer",
+      "type": "Full-Time",
+      "description": "Join our DevOps team in Chicago, IL. This role involves automating and streamlining our development processes, ensuring efficient deployment and scaling of applications. Experience with CI/CD pipelines and cloud infrastructure is essential.",
+      "location": "Chicago, IL",
+      "salary": "$95K - $105K",
+      "company": {
+        "name": "CloudWorks",
+        "description": "CloudWorks is a cutting-edge tech company specializing in cloud-based solutions and DevOps services. We are committed to driving technological advancements and improving operational efficiency.",
+        "contactEmail": "jobs@cloudworks.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Cybersecurity Analyst",
+      "type": "Full-Time",
+      "description": "We are looking for a Cybersecurity Analyst in Dallas, TX to protect our systems and data from cyber threats. Responsibilities include monitoring security threats, conducting risk assessments, and implementing security measures.",
+      "location": "Dallas, TX",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "SecureTech",
+        "description": "SecureTech is dedicated to providing top-notch cybersecurity solutions to safeguard businesses against evolving threats. We focus on innovation and proactive defense strategies.",
+        "contactEmail": "careers@securetech.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Customer Support Manager",
+      "type": "Full-Time",
+      "description": "Join our team as a Customer Support Manager in San Diego, CA. The role involves overseeing customer support operations, ensuring high-quality service, and managing a team of support representatives.",
+      "location": "San Diego, CA",
+      "salary": "$75K - $85K",
+      "company": {
+        "name": "Support Solutions",
+        "description": "Support Solutions is dedicated to providing exceptional customer service and support. We focus on building strong relationships with our clients and delivering effective solutions to their needs.",
+        "contactEmail": "jobs@supportsolutions.com",
         "contactPhone": "555-555-5555"
       }
     }

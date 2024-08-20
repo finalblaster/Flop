@@ -32,7 +32,7 @@ const AddJobPage = ({addJobSubmit}) => {
      };
 
     addJobSubmit(newJob);
-    return navigate('/jobs');
+    return navigate('/jobs'); // pk ici return et pas lautre
   };
 
   

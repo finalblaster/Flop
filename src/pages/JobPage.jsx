@@ -3,15 +3,26 @@ import { useParams , useLoaderData} from 'react-router-dom'
 //import Spinner from "../components/Spinner";
 import { FaArrowLeft , FaMapMarker} from 'react-icons/fa';
 import { Link } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 
 
 
-const JobPage = () => {
+const JobPage = ({deleteJob}) => {
+    const navigate = useNavigate();
     const { id } = useParams();
     // const[job, setJob] = useState(null);
     //const[loading, setLoading] = useState(true)
     const job = useLoaderData();
+    const OnDeleteClick = (jobId) => {
+        console.log('jobId', jobId);
+        const confirm = window.confirm('Are you sure?')
+        if (!confirm) return;
+
+        deleteJob(jobId);
+    
+    navigate('/jobs');
+    }
 
 
 // useEffect( () => {
@@ -93,7 +104,7 @@ const JobPage = () => {
             <h3 className="text-xl">{job.company.contactEmail}</h3>
 
             <p className="my-2 bg-indigo-100 p-2 font-bold">
-              contact@newteksolutions.com
+              c{job.company.contactEmail}
             </p>
 
             <h3 className="text-xl">{job.company.contactPhone}</h3>
@@ -110,6 +121,7 @@ const JobPage = () => {
               </Link>
             <button
               className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+              onClick={() => OnDeleteClick(job.id)}
             >
               Delete Job
             </button>

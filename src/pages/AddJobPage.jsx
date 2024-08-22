@@ -33,7 +33,7 @@ const AddJobPage = ({addJobSubmit}) => {
      };
 
     addJobSubmit(newJob);
-    toast.sucess("Job bien ajouté");
+    toast.success("Job bien ajouté");
     return navigate('/jobs'); // pk ici return et pas lautre
   };
 
